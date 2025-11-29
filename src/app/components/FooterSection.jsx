@@ -128,9 +128,11 @@ export function FooterSection() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-14 pt-8 border-t border-white/[0.06]">
+        <div className="mt-14 pt-8 border-t border-white/6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <p className="text-slate-500 text-sm">© 2025 NeoWatch. All rights reserved | <b><span className="text-indigo-400">Author:</span></b> Sujoy Paul | <b><a className="text-indigo-400" href="https://github.com/spsujoy007">Github</a></b> </p>
+            <p className="text-slate-500 text-sm">© 2025 NeoWatch. All rights reserved | <b><span className="text-indigo-400">Author:</span></b> Sujoy Paul | <b><a className="text-indigo-400" href="https://github.com/spsujoy007">Github</a></b> | 
+            <b> <span className="text-indigo-400">Company:</span></b> Autobotwa
+             </p>
             <div className="flex items-center gap-6">
               <Link href="#" className="text-slate-500 text-sm hover:text-indigo-400 transition-colors">
                 Privacy Policy

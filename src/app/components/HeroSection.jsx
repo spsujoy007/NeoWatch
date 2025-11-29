@@ -41,7 +41,7 @@ export function HeroSection() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
           {/* Left Column - Text Content */}
           <div className="flex flex-col gap-8 max-w-2xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm w-fit">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm w-fit mt-5 md:mt-0">
               <span className="w-2 h-2 rounded-full bg-linear-to-r from-indigo-500 to-violet-500 animate-pulse" />
               <span className="text-sm text-gray-300 tracking-wide uppercase">Next Generation Wearable</span>
             </div>
